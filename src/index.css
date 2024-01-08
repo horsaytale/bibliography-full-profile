@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+.card {
+  width: 450px;
+  margin: 40px;
+  border: 4px solid #222;
+}
+
+.card::after {
+  content: "";
+  display: block;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.nav li {
+  padding: 12px;
+  width: 33%;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.nav li:hover {
+  background-color: lightcyan;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.data {
+  padding: 20px;
+  padding-top: 24px;
+}
+.intro-profile {
+  display: flex;
+}
+.intro-profile h1 {
+  margin-right: 20px;
+}
+.intro-profile img {
+  height: 35px;
+}
+.hands-on {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.completed-project div {
+  margin-top: 12px;
+  border: 1px black solid;
+  padding: 3px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.completed-project img {
+  height: 20px;
+}
+.completed-project a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.language {
+  margin-top: 15px;
+}
+.language-details {
+  margin-top: 10px;
+}
+.project {
+  font-size: 14px;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+.project img {
+  width: 25px;
+  cursor: pointer;
+  transition: margin-top 0.1s ease-in-out;
+}
+.project img:hover {
+  margin-top: -3px;
+}
+.project a {
+  font-family: "IBM Plex Mono", sans-serif;
+  padding: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in;
+}
+.project a:hover {
+  background-color: lightgray;
+}
+.dark-button {
+  color: white;
+  background-color: black;
+}
+.dark-button:hover {
+  background-color: darkred !important;
+}
+.name-details {
+  display: flex;
+}
+.name-details p {
+  margin-right: 5px;
+}
