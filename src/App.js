@@ -41,7 +41,7 @@ const projects = [
       "./pictures/money-bag.png",
       "./pictures/money-up.png",
     ],
-    github: "",
+    github: "https://github.com/horsaytale/currency-converter-challenge",
     website: "https://horsaytale.github.io/currency-converter-app/",
   },
   {
@@ -51,7 +51,7 @@ const projects = [
       "./pictures/burger.png",
       "./pictures/cake.png",
     ],
-    github: "",
+    github: "https://github.com/horsaytale/eat-and-split-challenge",
     website: "https://horsaytale.github.io/eat-and-split-app/",
   },
   {
@@ -61,7 +61,7 @@ const projects = [
       "./pictures/money.png",
       "./pictures/card.png",
     ],
-    github: "",
+    github: "https://github.com/horsaytale/bank-account-project",
     website: "https://horsaytale.github.io/react-bank-account-app/",
   },
   {
@@ -71,7 +71,7 @@ const projects = [
       "./pictures/pizza-2.png",
       "./pictures/pizza-3.png",
     ],
-    github: "",
+    github: "https://github.com/horsaytale/pizza-menu",
     website: "https://horsaytale.github.io/pizza-menu-web",
   },
   {
@@ -81,7 +81,7 @@ const projects = [
       "./pictures/question-mark.png",
       "./pictures/num-2.png",
     ],
-    github: "",
+    github: "https://github.com/horsaytale/guess-my-number",
     website: "https://horsaytale.github.io/guess-my-number/",
   },
   {
@@ -91,7 +91,7 @@ const projects = [
       "./pictures/playstation.png",
       "./pictures/sword.png",
     ],
-    github: "",
+    github: "https://github.com/horsaytale/pig-game",
     website: "https://horsaytale.github.io/pig-game/",
   },
   {
